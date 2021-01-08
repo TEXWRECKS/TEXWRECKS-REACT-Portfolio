@@ -6,6 +6,7 @@ import RandomRecipeGenerator from '../assets/images/RandomRecipeGenerator.png';
 import ListlyApp from '../assets/images/ListlyApp.png';
 import ResponsivePortfolio from '../assets/images/ResponsivePortfolio.png';
 import WorkDayScheduler from '../assets/images/WorkDayScheduler.png';
+import Stockify from '../assets/images/Stockify.PNG'
 import Card from './HomePageCard';
 
 // Setting up a Carousel component which will 
@@ -17,18 +18,18 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Random Recipe Generator',
-                    subTitle: 'Recipes on the fly',
-                    imgSrc: RandomRecipeGenerator,
-                    link: "https://emgal-aguirre.github.io/Recipe-Generator/",
+                    title: 'Stockify',
+                    subTitle: 'Save Amazon products for instant price or availability change notifications',
+                    imgSrc: Stockify,
+                    link: "https://texwrecks.github.io/Stockify/",
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Listly',
-                    subTitle: 'Create and categorize to-do lists',
-                    imgSrc: ListlyApp,
-                    link: "https://github.com/TEXWRECKS/Listly",
+                    title: 'Random Recipe Generator',
+                    subTitle: 'Recipes on the fly',
+                    imgSrc: RandomRecipeGenerator,
+                    link: "https://emgal-aguirre.github.io/Recipe-Generator/",
                     selected: false
                 },
                 {
@@ -41,10 +42,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 3,
-                    title: 'Stockify',
-                    subTitle: 'Save Amazon products for instant price or availability change notifications',
-                    // imgSrc: ,
-                    link: "https://texwrecks.github.io/Stockify/",
+                    title: 'Listly',
+                    subTitle: 'Create and categorize to-do lists',
+                    imgSrc: ListlyApp,
+                    link: "https://github.com/TEXWRECKS/Listly",
                     selected: false
                 },
                 {
