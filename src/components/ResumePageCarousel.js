@@ -16,7 +16,7 @@ class Carousel extends React.Component {
                     title: 'Greg Malone - 2021 Resume',
                     subTitle: 'Full Stack Developer & Continuous Improvement Specialist',
                     imgSrc: GregMalone2021_Resume,
-                    href: "../assets/images/GregMalone2021_Resume.pdf",
+                    href: "../assets/images/GregMalone2021_Resume.PNG",
                     selected: false
                 },
             ]
