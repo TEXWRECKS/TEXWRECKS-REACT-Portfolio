@@ -21,7 +21,7 @@ class Carousel extends React.Component {
                     title: 'Stockify',
                     subTitle: 'Save Amazon products for instant price or availability change notifications',
                     imgSrc: Stockify,
-                    link: "https://texwrecks.github.io/Stockify/",
+                    link: "https://stockifyamzn.herokuapp.com/",
                     selected: false
                 },
                 {
